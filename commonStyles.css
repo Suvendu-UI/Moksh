@@ -167,12 +167,30 @@ footer {
 }
 
 .subscribeBtn {
-  background-color: #34D399; /* Emerald color */
-  color: #fff;
+  background-color: #640988; /* Adjusted comment: Not Emerald */
+  color: #950808;
+  font-weight: bolder;
   padding: 8px 16px;
   border: none;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
+  text-align: center;
+  transition: all 0.1s ease-in-out;
+}
+
+.subscribeBtn:hover {
+  background-position: 100% 0;
+}
+
+.subscribeBtn:focus {
+  outline: none;
+}
+
+.subscribeBtn.color01 {
+  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  background-position: 100% 0; 
+  transition: all 0.1s ease-in-out;
 }
 
 .popup {

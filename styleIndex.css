@@ -66,7 +66,7 @@ body {
 
 .navbar span {
   font-weight: bold;
-  color: white;
+  color: rgb(214, 47, 240);
   margin-left: 10px;
 }
 
@@ -99,7 +99,7 @@ body {
   .features {
     margin-left: 100px;
     /* margin-right: 80px; */
-    color: white !important;
+    color: rgb(77, 57, 233) !important;
   }
   #google_translate_element select {
     /* background-color: #2980b9 !important; */
